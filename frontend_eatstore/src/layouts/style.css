@@ -1,0 +1,27 @@
+.header-top {
+    background: rgb(0, 229, 255);
+    height: 100px;
+}
+
+.img-header-top {
+    height: 60px;
+
+}
+
+.header-img {
+    padding: 17px;
+    cursor: pointer;
+    display: flex;
+}
+
+.title-font {
+    font-size: 30px;
+    padding: 10px;
+    color: darkslateblue;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}

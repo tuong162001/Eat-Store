@@ -1,0 +1,72 @@
+.slider-list-flex {
+  display: flex;
+  margin-top: 5px;
+  height: 300px;
+}
+
+.pageSwitcher {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+/* .pageSwitcherItem {
+    background-color: white;
+    color: #9da6b1;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 0.9em;
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.pageSwitcherItem-active {
+    background-color: #6b5b95;
+    color: white;
+}
+
+.pageSwitcherItem:first-child {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.pageSwitcherItem:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 25px;
+} */
+.buttonSignIn {
+  margin-right: 10px;
+  font-size: large;
+}
+
+.buttonSignUp {
+  margin-left: 10px;
+  font-size: large;
+}
+
+.login-background {
+  /* background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%); */
+  height: 650px;
+}
+
+.login-container {
+  width: 500px;
+  border-radius: 12px;
+  background-color: white;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 570px;
+
+  background: transparent none repeat scroll 0 0;
+  border: solid 1px #020303;
+}
+.pagination-button {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
